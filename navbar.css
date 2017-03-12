@@ -1,0 +1,38 @@
+#menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(0, 0, 51, 1);
+    border-width: 1px;
+    border-radius: 4px;
+}
+#menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#menu.navbar-default .navbar-nav>li>a:hover,
+#menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(189, 189, 189, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#menu.navbar-default .navbar-nav>.active>a,
+#menu.navbar-default .navbar-nav>.active>a:hover,
+#menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(71, 216, 245, 1);
+}
+#menu.navbar-default .navbar-toggle {
+    border-color: #47d8f5;
+}
+#menu.navbar-default .navbar-toggle:hover,
+#menu.navbar-default .navbar-toggle:focus {
+    background-color: #47d8f5;
+}
+#menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #47d8f5;
+}
+#menu.navbar-default .navbar-toggle:hover .icon-bar,
+#menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #000033;
+}
