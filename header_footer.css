@@ -1,0 +1,25 @@
+#header.jumbotron {
+    background-color: transparent;
+    color: white;
+    margin-bottom: 0;
+    background-image: url('./imagenes/header.jpg');
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    border-radius: 0px;
+}
+
+#footer.jumbotron {
+    background-color: transparent;
+    color: white;
+    margin-bottom: 0;
+    background-image: url('./imagenes/footer.jpg');
+    background-position: 0% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    border-radius: 0px;
+}
