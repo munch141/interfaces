@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="header_footer.css">
+<head>
+    <meta charset="UTF-8">
+   
+    <!-- If IE use the latest rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Set the page to the width of the device and set the zoon level -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+    <title>Página de prueba</title>
+
+    <style>
+    </style>
+
+    <script src="./js/jquery.js"></script>
+    <script>
+        $(function(){
+            $("#menu").load("menu.html", function() {
+                $('#').addClass('active');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" id="header">
+            <p>LOGO</p>
+        </div>
+        <div id="menu"></div>
+    </div>
+
+    <div class="container">
+        <div class="col-xs-4">
+        </div>
+
+        <div class="col-xs-8">
+            <div class="page-header">
+                <h1>Título</h1>
+            </div>
+
+            <div class="jumbotron">
+                <p>        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron" id="footer"></div>
+    </div>
+
+    <script src="js/jquery.min.js"/>
+    <script src="js/bootstrap.min.js"/>
+</body>
