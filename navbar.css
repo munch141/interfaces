@@ -36,3 +36,8 @@
 #menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #000033;
 }
+
+#buscar {
+    position: relative;
+    right: 10px;
+}

@@ -20,6 +20,7 @@
     <script src="./js/jquery.js"></script>
     <script>
         $(function(){
+            $("#header").load("header.html")
             $("#menu").load("menu.html", function() {
                 $('#menu_involucrate').addClass('active');
             });
@@ -29,9 +30,7 @@
 
 <body>
     <div class="container">
-        <div class="jumbotron" id="header">
-            <p>LOGO</p>
-        </div>
+        <div id="header"></div>
         <div id="menu"></div>
     </div>
 
@@ -54,6 +53,6 @@
         <div class="jumbotron" id="footer"></div>
     </div>
 
-    <script src="js/jquery.min.js"/>
-    <script src="js/bootstrap.min.js"/>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
