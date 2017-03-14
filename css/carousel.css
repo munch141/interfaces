@@ -9,3 +9,11 @@
     text-align: left;
     text-shadow: 2px 2px #000000;
 }
+
+.thumb {
+    margin-bottom: 10px;
+}
+
+.thumb-link {
+    color: #494949;
+}
