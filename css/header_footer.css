@@ -2,7 +2,7 @@
     background-color: transparent;
     color: white;
     margin-bottom: 0;
-    background-image: url('./imagenes/header.jpg');
+    background-image: url('../imagenes/header.jpg');
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@
     background-color: transparent;
     color: white;
     margin-bottom: 0;
-    background-image: url('./imagenes/footer.jpg');
+    background-image: url('../imagenes/footer.jpg');
     background-position: 0% 50%;
     background-size: cover;
     background-repeat: no-repeat;
