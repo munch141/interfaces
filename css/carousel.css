@@ -1,0 +1,11 @@
+.carousel_img img {
+  width: auto;
+  height: 768px;
+  max-height: 768px;
+  margin: auto;
+}
+
+.carousel-caption {
+    text-align: left;
+    text-shadow: 2px 2px #000000;
+}
