@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/header_footer.css">
+<head>
+    <meta charset="UTF-8">
+   
+    <!-- If IE use the latest rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Set the page to the width of the device and set the zoon level -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+    <title>Involúcrate - Suscribirse</title>
+
+    <style>
+    </style>
+
+    <script src="./js/jquery.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header.html")
+            $("#menu").load("menu.html", function() {
+                $('#menu_involucrate').addClass('active');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container col-xs-10 col-xs-offset-1">
+        <div id="header"></div>
+        <div id="menu"></div>
+    </div>
+
+    <div class="container">
+        <div class="col-xs-10 col-xs-10 col-xs-offset-1">
+            <div class="page-header">
+                <h1>Involúcrate</h1>
+            </div>
+        </div>
+        <div class="col-xs-4 col-xs-offset-4 row">
+            
+            <p style="color: #000066; font-size: 20px;"><b>
+                <b>
+                        Gracias por tu interés!<br/>
+                        "Nombre Apellido"<br/>
+                        De ahora en adelante recibirás nuestro reporte semanal a la dirección de correo:<br/>
+                        "ejemplo@correo.com"
+            </b></p>
+
+            <div class="btn-group" role="group" aria-label="...">
+                <a href="./inicio.html">
+                    <button style="margin: 20px 85px 30px; width: 150px; color: #FFFFFF; background-color: #000066; height: 50px" type="button" class="btn btn-default">
+                    <b><i>Volver al inicio</i></b>
+                    </button>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container col-xs-10 col-xs-offset-1">
+        <div class="jumbotron" id="footer"></div>
+    </div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
