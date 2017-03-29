@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/header_footer.css">
+<head>
+    <meta charset="UTF-8">
+   
+    <!-- If IE use the latest rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Set the page to the width of the device and set the zoon level -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+    <title>Contact</title>
+
+    <style>
+    </style>
+
+    <script src="./js/jquery.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header-in.html")
+            $("#menu").load("menu-in.html", function() {
+                $('#menu_contacto').addClass('active');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container col-xs-10 col-xs-offset-1">
+        <div id="header"></div>
+        <div id="menu"></div>
+    </div>
+
+    <div class="container col-xs-10 col-xs-offset-1">
+
+            <div class="page-header">
+                <h1>Contac</h1>
+            </div>
+
+            <div style="margin: 10px 10px">
+                <h1>Pro-Aqua's Offices</h1>
+            </div>
+
+            <div class="col-xs-4 col-xs-offset-1 row">
+                <img src="./imagenes/casa.jpg">
+            </div>
+
+            <div class="col-xs-3 row">
+                <p><b>Caracas:</b><br>
+                    4th Avenue of los Palos
+                    Grandes, between 2nd y 3rd
+                    Transversal<br>
+                    <b>Telephones:</b><br>
+                    +58 212-2667854<br>
+                    +58 212-2655784<br>
+                    <b>E-mail:</b><br>
+                    Info@ProAqua.com.ve
+                </p>
+            </div>
+
+            <div class="col-xs-3 row">
+                <img style="margin-bottom: 20px" src="./imagenes/mapa.png" width="250px" height="250px">
+            </div>
+
+
+    </div>
+
+    <div class="container col-xs-10 col-xs-offset-1">
+        <div class="jumbotron" id="footer"></div>
+    </div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>

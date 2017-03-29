@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/header_footer.css">
+<head>
+    <meta charset="UTF-8">
+   
+    <!-- If IE use the latest rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Set the page to the width of the device and set the zoon level -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+    <title>Get In</title>
+
+    <style>
+    </style>
+
+    <script src="./js/jquery.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header-in.html")
+            $("#menu").load("menu-in.html", function() {
+                $('#menu_involucrate').addClass('active');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container col-xs-10 col-xs-offset-1">
+        <div id="header"></div>
+        <div id="menu"></div>
+    </div>
+
+    <div class="container">
+        <div class="col-xs-4">
+        </div>
+
+        <div class="col-xs-10 col-xs-10 col-xs-offset-1">
+            <div class="page-header">
+                <h1>Get in</h1>
+            </div>
+        </div>
+
+        <div class="col-xs-5 col-xs-offset-1 row">
+            <p style="color: #000066"><i><b>Recive our updated report</b></i></p>
+            <hr style="border-color: #000066; margin: 10px 0; margin-top: 10px;" width="320px">
+
+            <p style="color: #000066"><i><b>Name:</b></i></p>
+            <div class="input-group">
+                <input style="width: 250px; margin-bottom: 10px;" type="text" class="form-control" placeholder="Name LastName">
+            </div>
+
+            <p style="color: #000066"><i><b>E-mail:</b></i></p>
+            <div class="input-group">
+                <input style="width: 250px; margin-bottom: 10px;" type="text" class="form-control" placeholder="example@e-mail.com">
+            </div>
+
+            <p style="color: #000066"><i><b>Country:</b></i></p>
+            <select class="form-control" style="height: 30px; width: 250px; margin-top: 0px;" required>
+                <option value="">Country...</option>
+                <option value="p1">Venezuela</option>
+                <option value="p2">Italy</option>
+                <option value="p3">Portugal</option>
+                <option value="p4">Spain</option>
+                <option value="p5">Etc...</option>
+            </select><br>
+            <hr style="border-color: #000066; margin: 10px 0; margin-top: 10px;" width="320px">
+
+            <div class="btn-group" role="group" aria-label="...">
+                <a href="./suscribir-in.html">
+                    <button style="margin: 5px 60px 20px; width: 150px; color: #FFFFFF; background-color: #000066" type="button" class="btn btn-default">
+                        <b><i>Subscribe</i></b>
+                    </button>
+                </a>  
+            </div>         
+
+        </div>
+
+        <div class="col-xs-5 col-xs-offset-1 row">
+            <p style="color: #000066"><i><b>Do you want to collaborate?</b></i></p>
+            <hr style="border-color: #000066; margin: 10px 0; margin-top: 10px;" width="340px">
+
+            <p style="color: #000066"><i><b>Tell us your suggestions:</b></i></p>
+
+            <textarea style="width: 340px; height: 200px" class="form-control" rows="5" id="comment"></textarea>
+
+            <hr style="border-color: #000066; margin: 10px 0; margin-top: 10px;" width="340px">
+
+            <div class="btn-group" role="group" aria-label="...">
+                <a href="./contribuir-in.html">
+                    <button style="margin: 5px 90px 20px; width: 150px; color: #FFFFFF; background-color: #000066" type="button" class="btn btn-default">
+                        <b><i>Commit</i></b>
+                    </button> 
+                </a> 
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="container col-xs-10 col-xs-offset-1">
+        <div class="jumbotron" id="footer"></div>
+    </div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
